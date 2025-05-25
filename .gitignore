@@ -1,0 +1,46 @@
+# Dependencies
+/node_modules
+
+# Environment variables
+# Ignore all .env files
+.env
+*.env
+.env.*
+# Except for .env.example, which is safe to commit
+!.env.example
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Build output (if you have a build step for your backend)
+/dist
+/build
+
+# Optional Editor directories and files
+.idea
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.sublime-workspace
+*.sublime-project
+
+# Other common ignores
+# For example, if you use coverage reports:
+# /coverage
